@@ -48,7 +48,7 @@ Human duncan = new Human();
 Dictionary<string, object> newDic2 = _.Pluck (duncan, "Name");
 
 => {
-	{Name: "Duncan"}
+	Name: "Duncan"
 }
 
 ```
@@ -99,10 +99,8 @@ string[] pluck = {"Name", "Age"};
 Dictionary<string, object> newDic = _.Pick (duncan, pluck);
 
 => {
-  {
-    Name: "Duncan",
-    Age: 32
-  }
+  Name: "Duncan",
+  Age: 32
 }
 
 ```
@@ -151,11 +149,9 @@ Human duncan = new Human();
 Dictionary<string, object> newDic = _.toDictionary (duncan);
 
 => {
-  {
-    Name: "Duncan",
-    Age: 32,
-    Nick: "The Wookie"
-  }
+  Name: "Duncan",
+  Age: 32,
+  Nick: "The Wookie"
 }
 
 ```
