@@ -19,8 +19,6 @@ using Understike;
 ```
 
 Example:
-
-Part 1 - A class
 ```CSharp
 public class Human {
 	public string Name {
@@ -69,8 +67,6 @@ using Understike;
 ```
 
 Example:
-
-Part 1 - A class
 ```CSharp
 public class Human {
   public string Name {
@@ -120,8 +116,6 @@ using Understike;
 ```
 
 Example:
-
-Part 1 - A class
 ```CSharp
 public class Human {
   public string Name {
