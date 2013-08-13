@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Understrike", "Understrike\Understrike.csproj", "{BE92AFEE-2DD0-4FB0-99C2-055C73B1FB8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{D3C76961-848F-4B90-95CE-63C3F49205EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{BE92AFEE-2DD0-4FB0-99C2-055C73B1FB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE92AFEE-2DD0-4FB0-99C2-055C73B1FB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE92AFEE-2DD0-4FB0-99C2-055C73B1FB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C76961-848F-4B90-95CE-63C3F49205EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C76961-848F-4B90-95CE-63C3F49205EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C76961-848F-4B90-95CE-63C3F49205EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C76961-848F-4B90-95CE-63C3F49205EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
