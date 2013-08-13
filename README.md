@@ -4,7 +4,7 @@ UnderstrikeCS
 Inspired by underscorejs and lowdash, this is a C# version
 
 Pluck
-====
+-----
 - Take an instance of any class, and pull out one property as a dictionary with one item as a key and value
 
 Params:
@@ -54,7 +54,7 @@ Dictionary<string, object> newDic2 = _.Pluck (duncan, "Name");
 ```
 
 Pick
-====
+----
 - Take an instance of any class, and pull out properties as a dictionary with all the items in the pick list
 
 Params:
@@ -108,7 +108,7 @@ Dictionary<string, object> newDic = _.Pick (duncan, pluck);
 ```
 
 toDictionary
-====
+------------
 - Take an instance of any class, and turn it into a Dictionary<string, object>
 
 Params:
