@@ -18,7 +18,7 @@ namespace UnitTests {
     public void pluck1 () {
 
       String[] pluckList = { "Name", "Age" };
-      Dictionary<string, object> dic = _.Pluck (human, pluckList);
+      Dictionary<string, object> dic = _.Pick (human, pluckList);
 
       Assert.AreEqual (dic["Name"], "Duncan", "Name is included and is correct value");
       Assert.AreEqual (dic["Age"], 32, "Age is included and is correct value");
