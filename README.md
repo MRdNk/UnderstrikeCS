@@ -12,10 +12,10 @@ Params:
 - pluck item [string]
 
 Installation & Include
-- Reference the Understike.dll in your project / copy file into your project
+- Reference the Understrike.dll in your project / copy file into your project
 
 ```CSharp
-using Understike;
+using Understrike;
 ```
 
 Example:
@@ -60,10 +60,10 @@ Params:
 - picklist [string array]
 
 Installation & Include
-- Reference the Understike.dll in your project / copy file into your project
+- Reference the Understrike.dll in your project / copy file into your project
 
 ```CSharp
-using Understike;
+using Understrike;
 ```
 
 Example:
@@ -109,10 +109,10 @@ Params:
 - obj [class instance]
 
 Installation & Include
-- Reference the Understike.dll in your project / copy file into your project
+- Reference the Understrike.dll in your project / copy file into your project
 
 ```CSharp
-using Understike;
+using Understrike;
 ```
 
 Example:
@@ -149,3 +149,4 @@ Dictionary<string, object> newDic = _.toDictionary (duncan);
 }
 
 ```
+  
