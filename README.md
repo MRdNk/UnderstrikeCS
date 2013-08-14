@@ -21,23 +21,23 @@ using Understike;
 Example:
 ```CSharp
 public class Human {
-	public string Name {
-	  get {
-	    return "Duncan";
-	  }
-	}
+  public string Name {
+    get {
+      return "Duncan";
+    }
+  }
 
-	public int Age {
-	  get {
-	    return 32;
-	  }
-	}
+  public int Age {
+    get {
+      return 32;
+    }
+  }
 
-	public string Nick {
-	  get {
-	    return "The Wookie";
-	  }
-	}
+  public string Nick {
+    get {
+      return "The Wookie";
+    }
+  }
 }
 ```
 
@@ -46,7 +46,7 @@ Human duncan = new Human();
 Dictionary<string, object> newDic2 = _.Pluck (duncan, "Name");
 
 => {
-	Name: "Duncan"
+  Name: "Duncan"
 }
 
 ```
@@ -91,8 +91,8 @@ public class Human {
 
 ```CSharp
 Human duncan = new Human();
-string[] pluck = {"Name", "Age"};
-Dictionary<string, object> newDic = _.Pick (duncan, pluck);
+string[] picklist = {"Name", "Age"};
+Dictionary<string, object> newDic = _.Pick (duncan, picklist);
 
 => {
   Name: "Duncan",
