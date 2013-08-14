@@ -12,9 +12,9 @@ namespace Understrike {
         return dic;
       }
 
-      public static Dictionary<string, object> Pick (object obj, Array Plucklist) {
+      public static Dictionary<string, object> Pick (object obj, Array Picklist) {
         Dictionary<string, object> dic = new Dictionary<string, object> ();
-        foreach (string key in Plucklist) {
+        foreach (string key in Picklist) {
           dic.Add(key, obj.GetType ().GetProperty (key).GetValue (obj, null));
         }
         return dic;

@@ -54,7 +54,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="HumanTestCase.cs" />
-    <Compile Include="PluckTests.cs" />
+    <Compile Include="PickTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
