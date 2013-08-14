@@ -91,8 +91,8 @@ public class Human {
 
 ```CSharp
 Human duncan = new Human();
-string[] pluck = {"Name", "Age"};
-Dictionary<string, object> newDic = _.Pick (duncan, pluck);
+string[] picklist = {"Name", "Age"};
+Dictionary<string, object> newDic = _.Pick (duncan, picklist);
 
 => {
   Name: "Duncan",
